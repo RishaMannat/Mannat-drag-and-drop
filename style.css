@@ -1,0 +1,55 @@
+.container {
+    width: 300px;
+    height: 300px;
+    border: 2px solid #333;
+    padding: 10px;
+    float: left;
+    background-color: #f1e1e1;
+  }
+  
+  .item {
+    width: 80px;
+    height: 80px;
+    border: 2px solid #333;
+    margin-bottom: 10px;
+    background-color: #fdfdfd;
+    color: #b82626;
+    font-weight: bold;
+    text-align: center;
+    line-height: 80px;
+    font-size: 18px;
+    cursor: move;
+    transition: background-color 0.3s ease;
+  }
+  
+  .item:hover {
+    background-color: #0e0d0d;
+  }
+  
+  .success {
+    color: rgb(0, 133, 0);
+    font-weight: bold;
+    font-size: 14px;
+  }
+  
+  .dragged {
+    opacity: 0.4;
+    transform: scale(1.05);
+  }
+  
+  .reset-btn {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #0c0303;
+    color: #d3c5c5;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .reset-btn:hover {
+    background-color: #252525;
+  }
+  
